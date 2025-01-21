@@ -59,10 +59,41 @@ fieldset {
   margin: 0;
 }
 
+.btn{
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 5px;
+  padding: 5px 20px;
+  text-align: center;
+  
+}
+
+
+
+
+
+
 .container {
   --container-width: 1180px;
-  --container-padding: 50px;
+  --container-padding: 80px;
   max-width: calc(var(--container-width) + var(--container-padding) * 2);
   padding: 0 var(--container-padding);
   margin: 0 auto;
+}
+
+
+@media (max-width: 1140px) {
+  .container {
+    --width: 880px;
+  }
+}
+@media (max-width: 940px) {
+  .container {
+    --width: 680px;
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    --padding: 15px;
+  }
 }
