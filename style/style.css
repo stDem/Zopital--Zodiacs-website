@@ -1,62 +1,63 @@
 @import url(./fonts.css);
+@import url(./footer.css);
 
 * {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  overflow-x: hidden;
-  min-width: 340px;
-  min-height: 100vh;
-  font-family: 'Roboto-Black', sans-serif;
-  font-size: 16px;
-  color: #1F2937;
-  background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow-x: hidden;
+    min-width: 340px;
+    min-height: 100vh;
+    font-family: "Roboto-Black", sans-serif;
+    font-size: 16px;
+    color: #1f2937;
+    background-color: #f0f0f0;
 }
 
 img,
 svg {
-  display: block;
-  max-width: 100%;
-  height: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 svg {
-  max-height: 100%;
+    max-height: 100%;
 }
 
 button {
-  padding: 0;
-  cursor: pointer;
-  border: none;
-  background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 h1,
 h2,
 h3,
 p {
-  margin: 0;
+    margin: 0;
 }
 
 fieldset {
-  border: 0;
-  padding: 0;
-  margin: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .container {
-  --container-width: 1180px;
-  --container-padding: 50px;
-  max-width: calc(var(--container-width) + var(--container-padding) * 2);
-  padding: 0 var(--container-padding);
-  margin: 0 auto;
+    --container-width: 1180px;
+    --container-padding: 50px;
+    max-width: calc(var(--container-width) + var(--container-padding) * 2);
+    padding: 0 var(--container-padding);
+    margin: 0 auto;
 }

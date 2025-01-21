@@ -1,0 +1,17 @@
+footer {
+    background-color: #1f2937;
+    color: white;
+}
+footer .container {
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+}
+footer div section {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    width: 25%;
+}
