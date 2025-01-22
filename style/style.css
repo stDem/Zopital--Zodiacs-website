@@ -39,6 +39,11 @@ button {
 
 a {
     text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
 }
 
 h1,
@@ -83,4 +88,20 @@ fieldset {
     background-color: #3882f6;
     padding: 1em;
     border-radius: 0.5em;
+}
+
+@media (max-width: 1140px) {
+    .container {
+        --container-width: 880px;
+    }
+}
+@media (max-width: 940px) {
+    .container {
+        --container-width: 680px;
+    }
+}
+@media (max-width: 640px) {
+    .container {
+        --container-padding: 15px;
+    }
 }
