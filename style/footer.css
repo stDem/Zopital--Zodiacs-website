@@ -1,17 +1,34 @@
-footer {
-    background-color: #1f2937;
-    color: white;
-}
 footer .container {
     display: flex;
     justify-content: space-around;
     gap: 2em;
 }
-footer div section {
-    border: 1px solid red;
+footer section {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    align-items: left;
     width: 25%;
+}
+
+.footer_contact_li a {
+    display: flex;
+    align-items: center;
+}
+
+.footer_contact_li a img {
+    width: 1.5em;
+    margin-right: 1em;
+}
+
+footer section li {
+    height: 2em;
+    margin-bottom: 2em;
+}
+
+.footer_subscribe input {
+    margin: 1em 0 1em 0;
+    background-color: rgb(231, 237, 255);
+    border: none;
+    border-radius: 0.2em;
+    height: 2em;
 }
