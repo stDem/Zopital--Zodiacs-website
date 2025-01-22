@@ -13,6 +13,7 @@
 }
 
 .logo-text{
+  font-family: "Roboto-Bold", sans-serif;
   font-size: 24px;
 }
 
@@ -22,7 +23,7 @@
   align-items: center;
 }
 
-.logo-svg{
+.logo-svg, .burger-menu{
   width: 10%;
   height: auto;
   min-width: 70px;
@@ -58,6 +59,7 @@
 }
 
 .header__description h1{
+  font-family: "Roboto-ExtraBold", sans-serif;
   font-size: 48px;
   font-weight: extra-bold;
   color: #F9FAF8;
@@ -76,6 +78,9 @@
   padding: 3%;
 }
 
+.visually-hidden {
+  display: none;
+}
 
 @media (max-width: 1140px) {
 
@@ -92,9 +97,15 @@
     text-align: center;
   }
 
-  .header__main__img{
+  .header__main__img, .header__menu{
     display: none;
   }
+
+  .visually-hidden {
+    display: flex;
+    justify-content: flex-end;
+  }
+
 }
 
 

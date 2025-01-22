@@ -13,7 +13,7 @@ body {
   overflow-x: hidden;
   min-width: 340px;
   min-height: 100vh;
-  font-family: 'Roboto-Black', sans-serif;
+  font-family: 'Roboto-Regular', sans-serif;
   font-size: 16px;
   color: #1F2937;
   background-color: #f0f0f0;
@@ -63,7 +63,7 @@ fieldset {
   background-color: #3882F6;
   color: #F9FAF8;
   border-radius: 5px;
-  padding: 5px 20px;
+  padding: 7px 20px;
   text-align: center;
   
 }
@@ -84,16 +84,16 @@ fieldset {
 
 @media (max-width: 1140px) {
   .container {
-    --width: 880px;
+    --container-width: 880px;
   }
 }
 @media (max-width: 940px) {
   .container {
-    --width: 680px;
+    --container-width: 680px;
   }
 }
 @media (max-width: 640px) {
   .container {
-    --padding: 15px;
+    --container-padding: 15px;
   }
 }
