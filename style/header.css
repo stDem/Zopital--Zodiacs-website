@@ -14,39 +14,36 @@
 
 .logo-text{
   font-family: "Roboto-Bold", sans-serif;
-  font-size: 24px;
+  font-size: 1em;
 }
 
 .header_logo{
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  font-size: 24px;
 }
 
 .logo-svg, .burger-menu{
   width: 10%;
   height: auto;
-  min-width: 70px;
-  padding: 10px;
   fill: #F9FAF8;
 }
 
 .header__menu ul{
   display: flex;
-  gap: 25px;
+  gap: 2em;
   /* justify-content: space-between; */
   align-items: center;
-  font-size: 18px;
+  font-size: 1em;
   color: #E5E7EB;
 }
 
 .header__description{
   /* display: flex;
   flex-direction: column; */
-  padding-right: 5px;
-  /* max-width: 320px; */
+  padding-right: 1em;
   width: 50%;
-  /* gap: 15px; */
 }
 
 .header__description_text{
@@ -70,7 +67,7 @@
   flex-wrap: wrap-reverse;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 0;
+  padding: 1.5em 0;
 }
 
 .header__main__img{
