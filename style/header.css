@@ -21,7 +21,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 24px;
+  font-size: 1.4em;
 }
 
 .logo-svg, .burger-menu{
@@ -57,7 +57,7 @@
 
 .header__description h1{
   font-family: "Roboto-ExtraBold", sans-serif;
-  font-size: 48px;
+  font-size: 2em;
   font-weight: extra-bold;
   color: #F9FAF8;
 }
@@ -79,6 +79,10 @@
   display: none;
 }
 
+.header__menu a:hover{
+  text-decoration: underline;
+}
+
 @media (max-width: 1140px) {
 
   }
@@ -88,6 +92,10 @@
   }
 
 @media (max-width: 640px) {
+    header{
+      font-size: 0.7em;
+    }
+  
   .header__description{
     padding-right: 0;
     width: 100%;
