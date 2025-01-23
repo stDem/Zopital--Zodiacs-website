@@ -1,8 +1,22 @@
+.articles__article{
+  display: flex;
+  flex-direction: column;
+  margin: 3em 0;
+  gap: 1em;
+  line-height: 1.7
+}
+
+
+
+.articles h2{
+  text-align: center;
+}
+
 .zodiac__cards{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1em;
+  gap: 2em;
   margin: 3em 0;
 }
 
@@ -12,6 +26,10 @@
   border: 1px solid #e5e7eb;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 0.5em;
+}
+
+.cards__link:hover{
+background-color: rgb(220, 243, 243);
 }
 
 .cards__card{
@@ -27,4 +45,21 @@
 
 .cards__card figcaption:last-child{
   font-size: 0.6em;
+}
+
+.articles__description{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.articles__img{
+  width: 20%;
+  height: 20%;
+}
+
+.articles__text{
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
 }

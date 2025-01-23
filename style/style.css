@@ -86,6 +86,19 @@ fieldset {
     text-align: center;
 }
 
+.text-red{
+  color: rgb(153, 20, 20);
+}
+
+.text-blue{
+  color: rgb(15, 15, 102);
+  font-family: 'Roboto-Bold', sans-serif;  
+}
+
+.text-highlight{
+  background-color: rgb(236, 230, 223);
+}
+
 .container {
     --container-width: 1180px;
     --container-padding: 30px;
