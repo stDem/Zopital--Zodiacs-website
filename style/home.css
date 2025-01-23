@@ -2,11 +2,13 @@
 .mainContext{
     text-align: center;
     height: 250px;
+    margin-top: 10%;
 }
 .mainContext h3 {
     font-size: 36px;
-    font-family: 'extra-Bold';
+    font-family: "Roboto-ExtraBold";
     color: #1F2937;
+    margin-bottom: 2%;
 }
 .boxs{
     width: 50%;
@@ -22,9 +24,14 @@
     width: 120px;
     height: 120px; 
 }
+.boxs figure img{
+    height: 100%;
+    width: 100%;
+}
 .boxs figure figcaption{
+    width: 100%;
     position: relative;
-    top: 120px;
+    top: 10%;
 }
 .quote{
     width: 100%;
@@ -41,12 +48,12 @@
 }
 .quote p{
    font-size: 36px; 
-   font-family: 'light-italic';
+   font-family: "Roboto-LightItalic";
    color: #1F2937;
 }
 .quote strong{
     font-size: 26px;
-    font-family: 'light-italic';
+    font-family: "Roboto-LightItalic";
     color: #1F2937;
     position: relative;
     left: 600px;
@@ -68,13 +75,13 @@
 }
 .Action h2{
     font-size: 24px;
-    font-family: 'extra-Bold';
+    font-family: "Roboto-ExtraBold";
     color: #F9FAF8;
     
 }
 .Action P{
     font-size: 18px;
-    font-family: 'extra-Bold';
+    font-family: "Roboto-ExtraBold";
     color: #E5E7EB;
     
 }
@@ -87,7 +94,7 @@
     height: 30px;
     position: relative;
     top: 5%;
-    right: 15%;
+    right: 10%;
     
 }
 @media screen and (min-width:829px) and (max-width:1349px) {
@@ -106,10 +113,7 @@
         height: 75px;
         
     }
-    .boxs figure figcaption{
-        position: relative;
-        top: 70px;
-    }
+    
     .Action{
         margin: 10%;
         background-color: #3882F6;
@@ -129,13 +133,13 @@
     .Action h2{
         width: 80%;
         font-size: 18px;
-        font-family: 'extra-Bold';
+        font-family: "Roboto-ExtraBold";
         color: #F9FAF8;
         
     }
     .Action P{
         font-size: 14px;
-        font-family: 'extra-Bold';
+        font-family: "Roboto-ExtraBold";
         color: #E5E7EB;
         position: relative;
         
@@ -149,22 +153,23 @@
         height: 20px;
         position: relative;
         top: 5%;
-        right: 8%;
+        right: 5%;
     } 
 }
-@media screen and (min-width:631px) and (max-width:829px) {
+@media screen and (min-width:599px) and (max-width:829px) {
     .mainContext{
-        width: 90%;
+        --mainContext-width: 634px;
         text-align: center;
         height: 250px;
     }
     .mainContext h3 {
         font-size: 36px;
-        font-family: 'extra-Bold';
+        font-family: "Roboto-ExtraBold";
         color: #1F2937;
+        margin-bottom: 2%;
     }
     .boxs{
-        width: 90%;
+        width: 100%;
         margin-left: 1%;
         display: flex;
         justify-content: space-evenly;
@@ -174,7 +179,7 @@
         border: 3px solid #3882F6;
         border-radius: 7px;
         flex-direction: row;
-        width: 15%;
+        width: 10%;
         height: 65px;
         
     }
@@ -197,22 +202,22 @@
     }
     .quote p{
        font-size: 36px; 
-       font-family: 'light-italic';
+        font-family: "Roboto-LightItalic";
        color: #1F2937;
     }
     .quote strong{
         font-size: 26px;
-        font-family: 'light-italic';
+        font-family: "Roboto-LightItalic";
         color: #1F2937;
         position: relative;
-        left: 70%;
+        left: 50%;
     }
     .Action{
         margin: 10%;
         background-color: #3882F6;
         border-radius: 7px;
         width: 85%;
-        height: 10%;
+        height: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -226,13 +231,13 @@
     .Action h2{
         width: 80%;
         font-size: 18px;
-        font-family: 'extra-Bold';
+        font-family:"Roboto-ExtraBold";
         color: #F9FAF8;
         
     }
     .Action P{
         font-size: 14px;
-        font-family: 'extra-Bold';
+        font-family: "Roboto-ExtraBold";
         color: #E5E7EB;
         position: relative;
         
@@ -242,10 +247,210 @@
         border: 2px solid #E5E7EB;
         border-radius: 5px;
         background-color: #3882F6;
-        width: 20%;
-        height: 5%;
+        width: 15%;
         position: relative;
         top: 5%;
-        right: 3%;
+        left: 1%;
+    } 
+}
+@media screen and (min-width:413px) and (max-width:599px) {
+    .mainContext{
+        --mainContext-width: 333px;
+        text-align: center;
+        height: 250px;
+    }
+    .mainContext h3 {
+        font-size: 36px;
+        font-family: "Roboto-ExtraBold";
+        color: #1F2937;
+        margin-bottom: 10%;
+        margin-bottom: 2%;
+    }
+    .boxs{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin: 0;
+    }
+    .boxs figure{
+        border: 3px solid #3882F6;
+        border-radius: 7px;
+        flex-direction: row;
+        width: 10%;
+        height: 50%;
+        margin: 16px 20px;
+        
+    }
+    .boxs figure figcaption{
+        position: relative;
+        top: 80px;
+        right: 5%;
+    }
+    .quote{
+        width: 100%;
+        background-color: #E5E7EB;
+        height: 400px;
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;   
+    }
+    .quoteContent{
+        width: 50%;
+    }
+    .quote p{
+       font-size: 36px; 
+       font-family: "Roboto-LightItalic";
+       color: #1F2937;
+    }
+    .quote strong{
+        font-size: 26px;
+        font-family: "Roboto-LightItalic";
+        color: #1F2937;
+        position: relative;
+        left: 70%;
+    }
+    .Action{
+        margin: 10%;
+        background-color: #3882F6;
+        border-radius: 7px;
+        width: 85%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 1%;
+    }
+    .actionDetail{
+        width: 75%;
+        position: relative;
+        bottom: 20px;
+    }
+    .Action h2{
+        width: 80%;
+        font-size: 18px;
+        font-family: "Roboto-ExtraBold";
+        color: #F9FAF8;
+        
+    }
+    .Action P{
+        font-size: 14px;
+        font-family: "Roboto-ExtraBold";
+        color: #E5E7EB;
+        position: relative;
+        
+    }
+    .Action button{
+        color: #E5E7EB;
+        border: 1px solid #E5E7EB;
+        border-radius: 5px;
+        background-color: #3882F6;
+        width: 20%;
+        position: relative;
+        top: 25%;
+        right: 40%;
+    } 
+}
+@media screen and (max-width:413px) {
+    .mainContext{
+        width: 100%;
+        text-align: center;
+        height: 250px;
+    }
+    .mainContext h3 {
+        font-size: 36px;
+        font-family: "Roboto-ExtraBold";
+        color: #1F2937;
+        margin-bottom: 10%;
+    }
+    .boxs{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin: 0;
+    }
+    .boxs figure{
+        border: 3px solid #3882F6;
+        border-radius: 7px;
+        flex-direction: row;
+        width: 20%;
+        height: 40%;
+        margin: 16px 20px;
+        
+    }
+    
+    .quote{
+        width: 100%;
+        background-color: #E5E7EB;
+        height: 400px;
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;   
+    }
+    .quoteContent{
+        width: 100%;
+    }
+    .quote p{
+       font-size: 36px; 
+       font-family: "Roboto-LightItalic";
+       color: #1F2937;
+    }
+    .quote strong{
+        font-size: 26px;
+        font-family: "Roboto-LightItalic";
+        color: #1F2937;
+        position: relative;
+        left: 40%;
+    }
+    .Action{
+        margin: 10%;
+        background-color: #3882F6;
+        border-radius: 7px;
+        width: 85%;
+        height: 110px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 1%;
+    }
+    .actionDetail{
+        width: 100%;
+        position: relative;
+        bottom: 20px;
+    }
+    .Action h2{
+        width: 80%;
+        font-size: 18px;
+        font-family: "Roboto-ExtraBold";
+        color: #F9FAF8;
+        
+    }
+    .Action P{
+        font-size: 14px;
+        font-family: "Roboto-ExtraBold";
+        color: #E5E7EB;
+        position: relative;
+        margin-top: 1%;
+    }
+    .Action button{
+        color: #E5E7EB;
+        border: 1px solid #E5E7EB;
+        border-radius: 5px;
+        background-color: #3882F6;
+        width: 30%;
+        position: relative;
+        top: 35%;
+        right: 20%;
     } 
 }
