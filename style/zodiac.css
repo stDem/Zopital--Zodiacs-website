@@ -6,7 +6,11 @@
   line-height: 1.7
 }
 
-
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .articles h2{
   text-align: center;

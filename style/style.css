@@ -1,8 +1,7 @@
 @import url(./fonts.css);
 @import url(./header.css);
 @import url(./footer.css);
-@import url(./zodiac.css);
-@import url(./home.css);
+
 
 
 * {
@@ -26,12 +25,7 @@ body {
     background-color: #f0f0f0;
 }
 
-img,
-svg {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
+
 
 svg {
     max-height: 100%;
