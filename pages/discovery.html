@@ -3,20 +3,15 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="./style/style.css" />
-        <link
-            rel="shortcut icon"
-            href="../images/zodiac.png"
-            type="image/x-icon"
-        />
-
-        <title>Zopital</title>
+        <link rel="stylesheet" type="text/css" href="../style/style.css" />
+        <link rel="stylesheet" type="text/css" href="../style/discovery.css" />
+        <title>Astrology</title>
     </head>
     <body>
         <header class="header">
             <div class="container">
                 <nav class="header__nav">
-                    <a href="#" class="header_logo">
+                    <a href="../index.html" class="header_logo">
                         <svg
                             class="logo-svg"
                             xmlns="http://www.w3.org/2000/svg"
@@ -30,15 +25,13 @@
                     </a>
                     <menu class="header__menu">
                         <ul>
-                            <li><a href="#">Test</a></li>
-                            <li><a href="./pages/zodiac.html">Zodiacs</a></li>
-                            <li>
-                                <a href="./pages/discovery.html">Discovery</a>
-                            </li>
+                            <li><a href="./test.html">Test</a></li>
+                            <li><a href="./zodiac.html">Zodiacs</a></li>
+                            <li><p>Astrology</p></li>
                         </ul>
                     </menu>
-                    <a class="visually-hidden" href="#">
-                        <svg
+                    <a class="visually-hidden" href="#"
+                        ><svg
                             class="burger-menu"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512"
@@ -49,85 +42,20 @@
                         </svg>
                     </a>
                 </nav>
-
-                <section class="header__main">
-                    <div class="header__description">
-                        <div class="header__description_text">
-                            <h1>Want to know yourself better?</h1>
-                            <p>
-                                Get to know yourself from a new side. Take the
-                                test, find out your personality type. Go through
-                                the pages of the horoscope and discover
-                                something new and exciting
-                            </p>
-                        </div>
-                        <button class="header__btn btn">Sign up</button>
-                    </div>
-                    <img
-                        class="header__main__img"
-                        src="./images/zodiac.png"
-                        alt="zodiac"
-                    />
-                </section>
             </div>
         </header>
-
         <main>
             <div class="container">
-                <div class="mainContext">
-                    <h3>Some random information</h3>
-                    <div class="boxs">
-                        <figure>
-                            <img
-                                src="./images/aquarius.jpg"
-                                alt="aquariusSign"
-                            />
-                            <figcaption>21 Jan - 19 Feb Aquarius</figcaption>
-                        </figure>
-                        <figure>
-                            <img src="./images/Venus.jpg" alt="venus" />
-                            <figcaption>Planet of the month : Venus</figcaption>
-                        </figure>
-                        <figure>
-                            <img src="./images/lucky.jpg" alt="lucky" />
-                            <figcaption>
-                                This season luck signs : Cancer , Libra
-                            </figcaption>
-                        </figure>
-                        <figure>
-                            <img src="./images/sky.png" alt="skyforday" />
-                            <figcaption>How is sky today</figcaption>
-                        </figure>
+                <section class="planetary-positions">
+                    <h2>Planetary Positions</h2>
+                    <div class="zodiac-wheel">
+                        <div class="planet sun" title="Sun in Capricorn"></div>
+                        <div class="planet moon" title="Moon in Aquarius"></div>
+                        <div class="planet venus" title="Venus in Pisces"></div>
                     </div>
-                </div>
-            </div>
-
-            <div class="quote">
-                <div class="container">
-                    <div class="quoteContent quote__container">
-                        <p>
-                            Astrology is a language. If you understand this
-                            language, the sky speaks to you.
-                        </p>
-                        <strong>-Dane Rudhyar</strong>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="action">
-                    <div class="actionDetail">
-                        <h2>Call to action! It is time!</h2>
-                        <p>
-                            Sign up for our product by clicking that button
-                            right over there!
-                        </p>
-                    </div>
-                    <button class="reverse-btn btn">Sign Up</button>
-                </div>
+                </section>
             </div>
         </main>
-
         <footer class="dark_background">
             <div class="container">
                 <section class="footer_logo footer_contact">
@@ -147,7 +75,7 @@
                         <li class="footer_contact_li">
                             <a href="instagram.com" target="_blank">
                                 <img
-                                    src="./images/instagram.png"
+                                    src="../images/instagram.png"
                                     alt="Instagram icon"
                                 />
                                 Instagram
@@ -157,7 +85,7 @@
                         <li class="footer_contact_li">
                             <a href="facebook.com" target="_blank">
                                 <img
-                                    src="./images/facebook.png"
+                                    src="../images/facebook.png"
                                     alt="facebook icon"
                                 />
                                 Facebook
@@ -166,7 +94,10 @@
 
                         <li class="footer_contact_li">
                             <a href="mailto:example@somewhere.com">
-                                <img src="./images/mail.png" alt="email icon" />
+                                <img
+                                    src="../images/mail.png"
+                                    alt="email icon"
+                                />
                                 Email
                             </a>
                         </li>
@@ -178,7 +109,7 @@
                             <a href="./index.html">Link Page 1</a>
                         </li>
                         <li>
-                            <a href="./pages/zodiac.html">Zodiacs</a>
+                            <a href="./index.html">Link Page 2</a>
                         </li>
                         <li>
                             <a href="./index.html">Link Page 3</a>
