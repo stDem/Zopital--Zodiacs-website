@@ -76,7 +76,9 @@
 }
 
 .visually-hidden {
-  display: none;
+  /* display: none; */
+  position: fixed;
+  transform: scale(0);
 }
 
 .header__menu a:hover{
@@ -103,10 +105,13 @@
   }
 
   .header__main__img, .header__menu{
-    display: none;
+    position: fixed;
+    transform: scale(0);
   }
 
   .visually-hidden {
+    transform: scale(1);
+    position:relative;
     display: flex;
     justify-content: flex-end;
   }
