@@ -2,15 +2,13 @@
 @import url(./header.css);
 @import url(./footer.css);
 
-
-
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-html{
-  font-size: 18px;
+html {
+    font-size: 18px;
 }
 
 body {
@@ -24,8 +22,6 @@ body {
     color: #1f2937;
     background-color: #f0f0f0;
 }
-
-
 
 svg {
     max-height: 100%;
@@ -60,9 +56,9 @@ p {
     margin: 0;
 }
 
-figure{
-  margin: 0;
-  padding: 0;
+figure {
+    margin: 0;
+    padding: 0;
 }
 
 fieldset {
@@ -82,26 +78,26 @@ fieldset {
     border: 0.2em solid transparent;
 }
 
-.reverse-btn{
-  border: 0.2em solid #f9faf8;
+.reverse-btn {
+    border: 0.2em solid #f9faf8;
 }
 
 .btn:hover {
-  border: 0.2em solid #f9faf8;
-  color: #1f2937;
+    border: 0.2em solid #f9faf8;
+    color: #1f2937;
 }
 
-.text-red{
-  color: rgb(153, 20, 20);
+.text-red {
+    color: rgb(153, 20, 20);
 }
 
-.text-blue{
-  color: rgb(15, 15, 102);
-  font-family: 'Roboto-Bold', sans-serif;  
+.text-blue {
+    color: rgb(15, 15, 102);
+    font-family: "Roboto-Bold", sans-serif;
 }
 
-.text-highlight{
-  background-color: rgb(236, 230, 223);
+.text-highlight {
+    background-color: rgb(236, 230, 223);
 }
 
 .container {
@@ -136,25 +132,25 @@ fieldset {
 }
 
 .back-to-top-btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 50px;
-  height: 50px;
-  background-color: #007bff;
-  color: white;
-  text-decoration: none; /* Убираем подчёркивание */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  font-size: 24px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition-duration: 0.4s;
-  opacity: 0.5;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none; /* Убираем подчёркивание */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition-duration: 0.4s;
+    opacity: 0.5;
 }
 .back-to-top-btn:hover {
-  background-color: #0056b3;
+    background-color: #0056b3;
 }
 
 @media (max-width: 1140px) {
