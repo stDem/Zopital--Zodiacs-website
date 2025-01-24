@@ -4,6 +4,7 @@
 @import url(./zodiac.css);
 @import url(./home.css);
 
+
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
