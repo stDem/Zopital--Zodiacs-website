@@ -92,7 +92,7 @@ fieldset {
     color: #3882f6;
 }
 
-.norm_btn:hover {
+.norm_btn:hover, .btn:hover {
     border: 0.2em solid #f9faf8;
     color: #1f2937;
 }

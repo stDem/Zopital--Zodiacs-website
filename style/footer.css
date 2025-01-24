@@ -2,6 +2,7 @@ footer .container {
     display: flex;
     justify-content: space-between;
     gap: 2em;
+    padding-top: 1.5em;
 }
 footer section {
     display: flex;
@@ -54,9 +55,9 @@ footer section ul {
     border-radius: 0.2em;
     height: 2em;
 }
-.footer_subscribe button {
+/* .footer_subscribe button {
     border: none;
-}
+} */
 
 @media (max-width: 640px) {
     footer .container {
