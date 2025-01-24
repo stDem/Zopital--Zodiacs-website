@@ -48,6 +48,9 @@ aside {
     width: 7em;
 }
 
+article figcaption {
+    font-size: 15px;
+}
 .featured_img {
     height: auto;
     object-fit: cover;

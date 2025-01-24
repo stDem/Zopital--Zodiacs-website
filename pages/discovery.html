@@ -5,11 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="../style/style.css" />
         <link rel="stylesheet" type="text/css" href="../style/discovery.css" />
+        <link
+            rel="shortcut icon"
+            href="../images/zodiac.png"
+            type="image/x-icon"
+        />
 
-        <title>Astrology</title>
+        <title>Discover Zopital</title>
     </head>
     <body>
-        <header class="header">
+        <header class="header" id="top">
             <div class="container">
                 <nav class="header__nav">
                     <a href="../index.html" class="header_logo">
@@ -55,7 +60,7 @@
                         </div>
                     </div>
                     <img
-                        class="header__main__img"
+                        class="header__main__img rotate"
                         src="../images/discovery/discovery.png"
                         alt="zodiac"
                     />
@@ -82,7 +87,11 @@
                                 29, 2025. The year of the Wood Snake will start
                                 with transforming energy for partnerships.
                             </p>
-                            <a href="">Read more...</a>
+                            <a
+                                href="https://timesofindia.indiatimes.com/astrology/vastu-feng-shui/chinese-new-year-2025-6-chinese-zodiac-signs-that-will-find-love-in-2025/articleshow/117484717.cms"
+                                target="_blank"
+                                >Read more...</a
+                            >
                         </div>
                     </article>
                     <article>
@@ -110,6 +119,7 @@
                             </p>
                             <a
                                 href="https://www.astronomy.com/observing/venus-meets-saturn-this-week-in-astronomy-with-dave-eiche/"
+                                target="_blank"
                                 >Read more...</a
                             >
                         </div>
@@ -133,7 +143,11 @@
                                 being destroyed by its star, providing a unique
                                 window into the end of a planet’s life.
                             </p>
-                            <a href="">Read more...</a>
+                            <a
+                                href="https://skyandtelescope.org/astronomy-news/disintegrating-world-is-shedding-comet-like-tail/#:~:text=Astronomers%20have%20spotted%20a%20disintegrating,shown%20in%20this%20artist's%20illustration.&text=A%20planet%20orbiting%20its%20star,disintegrate%20in%20the%20intense%20heat."
+                                target="_blank"
+                                >Read more...</a
+                            >
                         </div>
                     </article>
                     <button class="btn">Load more news...</button>
@@ -196,7 +210,7 @@
                     </article>
                 </aside>
             </div>
-            <a href="#top" class="back-to-top-">↑</a>
+            <a href="#top" class="back-to-top-btn">↑</a>
         </main>
         <footer class="dark_background">
             <div class="container">
@@ -248,17 +262,17 @@
                 <section class="footer_links">
                     <ul>
                         <li>
-                            <a href="./index.html">Link Page 1</a>
+                            <a href="./test.html">Test</a>
                         </li>
                         <li>
-                            <a href="./index.html">Link Page 2</a>
+                            <a href="./zodiac.html">Zodiac</a>
                         </li>
                         <li>
-                            <a href="./index.html">Link Page 3</a>
+                            <a href="./discovery.html">Discovery</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="./index.html">Contacts</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </section>
 
@@ -274,9 +288,7 @@
                             placeholder="Enter your email"
                         />
 
-                        <button type="submit" class="primary_button">
-                            Subscribe
-                        </button>
+                        <button class="reverse-btn btn">Subscribe</button>
                     </form>
                 </section>
             </div>

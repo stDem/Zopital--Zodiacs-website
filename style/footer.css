@@ -1,6 +1,6 @@
 footer .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 2em;
 }
 footer section {
@@ -28,6 +28,7 @@ footer section {
     padding: 10px;
     fill: #f9faf8;
 }
+
 .footer_contact_li a {
     display: flex;
     align-items: center;
@@ -53,6 +54,10 @@ footer section ul {
     border-radius: 0.2em;
     height: 2em;
 }
+.footer_subscribe button {
+    border: none;
+}
+
 @media (max-width: 640px) {
     footer .container {
         flex-direction: column;

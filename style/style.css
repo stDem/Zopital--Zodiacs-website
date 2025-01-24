@@ -37,6 +37,11 @@ button {
 a {
     text-decoration: none;
     color: inherit;
+    transition: 200ms;
+}
+
+a:hover {
+    color: rgb(167, 195, 246);
 }
 
 li {
@@ -81,8 +86,12 @@ fieldset {
 .reverse-btn {
     border: 0.2em solid #f9faf8;
 }
+.reverse-btn:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+}
 
-.btn:hover {
+.norm_btn:hover {
     border: 0.2em solid #f9faf8;
     color: #1f2937;
 }
@@ -166,5 +175,18 @@ fieldset {
 @media (max-width: 640px) {
     .container {
         --container-padding: 15px;
+    }
+}
+
+.rotate {
+    animation: rotateAnimation 30s linear infinite;
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
     }
 }
