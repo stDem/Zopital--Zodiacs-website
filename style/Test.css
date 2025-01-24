@@ -59,9 +59,7 @@
 .submit label input {
     padding: 10px;
 }
-/* .submit label input:checked + .firstResult{
-    display: block;
-} */
+
 
 .firstResult {
     width: 100%;
