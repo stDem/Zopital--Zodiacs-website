@@ -40,8 +40,9 @@ a {
     transition: 200ms;
 }
 
-a:hover {
+.link a:hover {
     color: rgb(167, 195, 246);
+    text-decoration: underline;
 }
 
 li {
