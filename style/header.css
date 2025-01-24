@@ -49,8 +49,6 @@
 .header__description_text {
     display: flex;
     flex-direction: column;
-    /* max-width: 400px; */
-    /* width: 50%; */
     padding-bottom: 3%;
     gap: 0.8em;
 }
@@ -79,10 +77,6 @@
     /* display: none; */
     position: fixed;
     transform: scale(0);
-}
-
-.header__menu a:hover {
-    text-decoration: underline;
 }
 
 @media (max-width: 1140px) {
