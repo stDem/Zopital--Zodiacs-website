@@ -9,8 +9,8 @@
     scroll-behavior: smooth;
 }
 
-html{
-  font-size: 18px;
+html {
+    font-size: 18px;
 }
 
 body {
@@ -23,13 +23,6 @@ body {
     font-family: "Roboto-Regular", sans-serif;
     color: #1f2937;
     background-color: #f0f0f0;
-}
-
-img,
-svg {
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 
 svg {
@@ -65,9 +58,9 @@ p {
     margin: 0;
 }
 
-figure{
-  margin: 0;
-  padding: 0;
+figure {
+    margin: 0;
+    padding: 0;
 }
 
 fieldset {
@@ -87,26 +80,26 @@ fieldset {
     border: 0.2em solid transparent;
 }
 
-.reverse-btn{
-  border: 0.2em solid #f9faf8;
+.reverse-btn {
+    border: 0.2em solid #f9faf8;
 }
 
 .btn:hover {
-  border: 0.2em solid #f9faf8;
-  color: #1f2937;
+    border: 0.2em solid #f9faf8;
+    color: #1f2937;
 }
 
-.text-red{
-  color: rgb(153, 20, 20);
+.text-red {
+    color: rgb(153, 20, 20);
 }
 
-.text-blue{
-  color: rgb(15, 15, 102);
-  font-family: 'Roboto-Bold', sans-serif;  
+.text-blue {
+    color: rgb(15, 15, 102);
+    font-family: "Roboto-Bold", sans-serif;
 }
 
-.text-highlight{
-  background-color: rgb(236, 230, 223);
+.text-highlight {
+    background-color: rgb(236, 230, 223);
 }
 
 .container {
