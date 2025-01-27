@@ -1,4 +1,4 @@
-Website view: https://stdem.github.io/assignment2/
+Website view:  https://stdem.github.io/Zopital--Zodiacs-website/
 
 Created by:
 - Stefano Mascitti;
